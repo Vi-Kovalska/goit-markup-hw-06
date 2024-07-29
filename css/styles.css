@@ -4,14 +4,14 @@ body {
     background-color: #fff;
 }
 a {
-text-decoration: none;
+    text-decoration: none;
 }
 ul, ol {
     list-style-type: none;
 }
 button { 
-cursor: pointer;
-font-family: inherit;
+    cursor: pointer;
+    font-family: inherit;
 }
 /* #region header */
 .logo {
@@ -34,10 +34,10 @@ font-family: inherit;
 }
 .nav-menu-link {
     font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .nav-menu-link:hover, .nav-menu-link:focus {
     color: #404bbf;
@@ -46,14 +46,14 @@ color: #2e2f42;
     font-style: normal;
 }
 .contacts-menu-link {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .contacts-menu-link:hover, .contacts-menu-link:focus {
-color: #404bbf;
+    color: #404bbf;
 }
 /* #endregion header */
 /* #region hero */
@@ -61,19 +61,19 @@ color: #404bbf;
     background-color: #2e2f42;
 }
 .hero-title {
-font-size: 56px;
-line-height: 1.07;
-letter-spacing: 0.02em;
-text-align: center;
-color: #fff;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
 }
 .hero-btn {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
-background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
 }
 .hero-btn:hover, .hero-btn:focus {
     background: #404bbf;
@@ -90,10 +90,10 @@ background-color: #4d5ae5;
 }
 .benefits-item-text {
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /* #endregion benefits */
 /* #region team */
@@ -101,26 +101,26 @@ color: #434455;
     background-color: #f4f4fd;
 }
 .team-item {
-background: #fff;
+    background: #fff;
 }
 .team-title {
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 .team-img {
     background: url("path_to_image");
 }
 .team-name {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .team-text {
     font-size: 16px;
@@ -133,27 +133,27 @@ color: #2e2f42;
 /* #region portfolio */
 .portfolio-title {
     font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color: #2e2f42;
-text-transform: capitalize;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
 }
 .portfolio-img {
     background: url("path_to_image");
 }
 .portfolio-name {
     font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2e2f42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portfolio-text {
     font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /* #endregion portfolio */
 .footer {
@@ -162,15 +162,15 @@ color: #434455;
 .footer-logo-span {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
 .footer-text {
     font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
