@@ -50,7 +50,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42; 
-    margin-right: 76px;
 }
 .nav-menu-link {
     font-weight: 500;
@@ -83,8 +82,7 @@ img {
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
-width: 1440px;
-height: 72px;
+
 
 }
 .header-container {
