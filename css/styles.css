@@ -39,7 +39,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     display: flex;
-    padding-right: 76px;
+    margin-right: 76px;
     align-items: center;
 }
 .logo-span {
