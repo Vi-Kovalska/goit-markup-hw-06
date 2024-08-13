@@ -286,7 +286,7 @@ height: 40px;
 }
 
  .team-social-link {
-    background-color: #404bbf;
+    background-color: #4d5ae5;
     border-radius: 50%;
     width: 100%;
     height: 100%;
@@ -306,7 +306,7 @@ height: 40px;
  
  }
  .team-social-link:hover, .team-social-link:focus {
-    background-color: #31D0AA; 
+    background-color: #404bbf; 
  }
 /* #endregion team */
 /* #region portfolio */
