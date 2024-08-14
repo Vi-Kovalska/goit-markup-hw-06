@@ -170,6 +170,7 @@ background-color: #404bbf;
 .benefits {
     padding-top: 120px;
     padding-bottom: 120px;
+    margin: 0 auto;
 }
 .benefits-menu {
     display: flex;
@@ -379,13 +380,10 @@ padding: 40px 32px;
 }
 /* #endregion portfolio */
 .container.footer-container {
-    width: 1440px;
     display: flex;
-    gap: 120px;
     align-items: baseline;
 }
 .footer-logo-div {
-    padding-left: 156px;
     margin-right: 120px 
 }
 .footer {
@@ -415,7 +413,7 @@ padding: 40px 32px;
 }
 .footer-container-social {
     width: 208px;
-    padding-bottom: 132px;
+
 }
 .footer-social-title {
     font-weight: 500;
