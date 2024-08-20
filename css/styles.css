@@ -601,13 +601,14 @@ margin-bottom: 16px;
         top: 8px;
         left: 8px;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+    .modal-close-btn:hover > .modal-close-icon, .modal-close-btn:focus > .modal-close-icon {
+        fill: #ffffff;
     }
     .modal-close-btn:hover, .modal-close-btn:focus {
         background-color: #404bbf;
         border: none;
-    }
-    .modal-close-icon:hover, .modal-close-icon:focus {
-        fill: #ffffff;
     }
     .modal-text {
         font-weight: 500;
@@ -660,7 +661,7 @@ margin-bottom: 16px;
         fill: #4d5ae5;
     }
     .modal-input:hover, .modal-input:focus {
-        border-color: 1px solid #4d5ae5;
+        border-color: #4D5AE5;
     }
     .modal-form-label-comment {
         display: block;
