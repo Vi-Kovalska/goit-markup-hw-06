@@ -414,7 +414,6 @@
 <p class="modal-text">Leave your contacts and we will call you back</p>
 <form class="modal-form">
     <div class="form-wrapper-div-input">
-        
         <label class="modal-form-label" for="user-name">Name</label>
         <div class="modal-div-input">
                 <input class="modal-input" id="user-name" type="text" name="user-name" required>
@@ -422,7 +421,7 @@
                     <use href="./images/icons.svg#person"></use>
                 </svg>
             </div>
-            
+            <div class="form-wrapper-div-input">
             <label class="modal-form-label" for="user-tell">Phone</label>
             <div class="modal-div-input">
                 <input class="modal-input" id="user-tell" type="tel" required>
@@ -430,7 +429,8 @@
                     <use href="./images/icons.svg#tel"></use>
                 </svg>
             </div>
-            
+            </div>
+            <div class="form-wrapper-div-input">
             <label class="modal-form-label" for="user-email">Email</label>
             <div class="modal-div-input">
                 <input class="modal-input" id="user-email" type="email" required>
@@ -443,11 +443,12 @@
 <label class="modal-form-label-comment" for="user-comment">Comment</label>
 <textarea class="modal-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
     </div>
+</div>
     <div class="modal-cont-checkbox">
-        <input class="checkbox visually-hidden" type="checkbox" name="user-checkbox" id="user-checkbox" >
-        <label class="custom-label" for="user-checkbox">
+        <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy"  value="true">
+        <label class="custom-label" for="user-privacy">
             <span class="custom-checkbox">
-            <svg class="checkbox-icon" width="10" height="18">
+            <svg class="checkbox-icon" width="10" height="8">
                 <use href="./images/icons.svg#agree"></use>
             </svg>
             </span>
