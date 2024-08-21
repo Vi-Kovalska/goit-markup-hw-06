@@ -460,7 +460,7 @@ margin-bottom: 16px;
     background-color: #31D0AA;
     }
     .footer-subscribe-div {
-      
+      margin-left: auto;
     }
     .footer-subscribe-form {
         display: flex ;
