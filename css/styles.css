@@ -467,7 +467,6 @@ text-align: center;
     background-color: #31D0AA;
     }
     .footer-subscribe-div {
-      margin: auto;
       display: flex ;
       align-items: center;
       flex-direction: column;
@@ -831,7 +830,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .footer-subscribe-div {
         display: flex;
         flex-direction: row;
-        justify-content: center;
         gap: 24px;
         align-items: end;
       }
