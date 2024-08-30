@@ -148,8 +148,10 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .mob-contacts-list {
     margin-bottom: 48px;
 }
-.mob-contacts-item:first-child {
+.mob-contacts-item:first-child>.mob-contacts-menu-link {
     color: #404bbf;
+}
+.mob-contacts-item:first-child {
     margin-bottom: 24px;
 }
 .mob-contacts-menu-link {
@@ -382,7 +384,8 @@ margin-bottom: 8px;
     background-color: #404bbf; 
  }
  .container.team-container {
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
  }
 /* #endregion team */
 /* #region portfolio */
@@ -634,15 +637,16 @@ text-align: center;
     }
     .modal {
         position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        top: 8px;
+        bottom: 9px;
+        left: 16%;
+        transform: translateX(-12%);
         background-color: #fcfcfc;
         box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
         border-radius: 4px;
-        width: 408px;
-        min-height: 584px;
-        padding: 72px 24px 24px 24px;
+        width: 288px; 
+        min-height: 623px; 
+        padding: 72px 16px 24px 16px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .backdrop.is-open {
@@ -690,12 +694,17 @@ text-align: center;
         text-align: center;
         color: #2e2f42;
         margin-bottom: 16px;        
-        width: 360px;
+        width: 256px;
         margin-left: auto;
         margin-right: auto;
     }
     .form-wrapper-div-input {
         margin-bottom: 8px;
+    }
+    .modal-form {
+        width: 256px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .modal-form-label {
         display: block;
@@ -825,11 +834,15 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 text-align: center;
 color: #ffffff;
-margin: 0 96px 24px 95px;
+margin-left: auto;
+margin-right: auto;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .modal-cont-checkbox {
+        width: 256px;
         margin-bottom: 24px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .modal-btn-send:hover, .modal-btn-send:focus {
     background-color: #404bbf;
@@ -870,8 +883,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 width: 100%;
 height: 4px;
 background-color: #404bbf;
-} */
-
+}
 .nav-menu-link {
     font-weight: 500;
     font-size: 16px;
@@ -890,7 +902,6 @@ background-color: #404bbf;
     font-style: normal;
 }
 .contacts-menu-link {
-    padding: 0;
     font-weight: 400;
     font-style: 12px;
     line-height: 1.7;
@@ -902,7 +913,6 @@ background-color: #404bbf;
 .contacts-menu-link:hover, .contacts-menu-link:focus {
     color: #404bbf;
 }
-
 .container.header-container {
     display: flex;
     justify-content: space-between;
@@ -914,22 +924,12 @@ background-color: #404bbf;
 .nav-container {
     display: flex;
     align-items: center
-}
-.nav-menu-container {
-    display: flex;
     gap: 40px;
 }
 .contacts-menu-container {
     display: flex;
     gap: 12px;
     flex-direction: column;
-} 
-.contacts-menu-link {
-    font-size: 16px; 
-    line-height: 1.5; 
-    letter-spacing: 0.02em; 
-    padding-top: 24px;
-    padding-bottom: 24px; 
 }
     /* #endregion header */
     /* #region hero */
@@ -1029,7 +1029,26 @@ background-color: #404bbf;
         max-width: 264px;
       }
     /* #endregion footer */
-}
+    /* #region modal */
+    .modal {
+        top: 96px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 408px; 
+        min-height: 584px;
+        padding: 72px 24px 24px 24px;
+    }
+    .modal-text {
+        width: 360px; 
+        }
+    .modal-form {
+            width: 360px;
+        }
+        .modal-cont-checkbox {
+            width: 360px;
+        }
+    /* #endregion modal */
+    }
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1047,8 +1066,12 @@ background-color: #404bbf;
     flex-direction: row;
     gap: 40px;
 }
+.contacts-menu-link {
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em; 
+}
 /* #endregion header */
-
     /* #region hero */
     .hero {
         padding: 188px 0; 
@@ -1157,6 +1180,13 @@ background-color: #404bbf;
         max-width: 264px;
              }
     /* #endregion footer */
+    /* #region modal */
+    .modal {
+        top: 80px;
+        bottom: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+    /* #endregion modal */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1158px) {
@@ -1168,3 +1198,4 @@ background-color: #404bbf;
     }
 }
 
+}
