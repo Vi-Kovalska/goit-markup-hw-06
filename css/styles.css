@@ -428,8 +428,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 width: 360px;
-height: 280px;
-/* height: 300px; */
+height: 100%;
 transform: translateY(100%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 padding-top: 40px;
@@ -985,9 +984,6 @@ background-color: #404bbf;
     }
     /* #endregion team */
      /* #region portfolio */
-     .portfolio-cover-text {
-        height: 300px;
-     }
     .portfolio-menu {
         flex-direction: row;
         flex-wrap: wrap;
