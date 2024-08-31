@@ -38,13 +38,12 @@
 </div>
 
 <div class="mob-menu">
-    <div>
+    <>
     <button class="mob-menu-close-btn" type="button">
         <svg class="mob-menu-close-icon" width="8" height="8">
             <use href="./images/icons.svg#close" ></use>
         </svg>
     </button>
-    
     <nav class="mob-nav">
     <ul class="mob-menu-list">
         <li class="mob-menu-item"> <a class="mob-menu-link current" href="./index.html">Studio</a> </li>
@@ -59,7 +58,6 @@
             <li class="mob-contacts-item"> <a class="mob-contacts-menu-link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
     </ul>
     </address>
-</div>
     <ul class="mob-social-list">
         <li class="mob-social-item">
             <a class="mob-social-link" href="">
@@ -91,6 +89,8 @@
         </li>
     </ul>
 </div>
+    
+</div>
     </header>
 <!-- #endregion header -->
 <!-- #region main -->
@@ -102,7 +102,7 @@
         Effective Solutions 
         for Your Business
     </h1>
-    <button class="hero-btn" type="button">Order Service</button>
+    <button class="hero-btn" type="button" data-modal-open>Order Service</button>
 </div>
 </section> 
 <!-- #endregion hero -->
@@ -563,9 +563,9 @@
     </footer>
 <!-- #endregion footer -->
  <!-- #region modal -->
-  <div class="backdrop">
+  <div class="backdrop data-modal">
     <div class="modal">
-<button class="modal-close-btn" type="button">
+<button class="modal-close-btn" type="button" data-modal-close>
     <svg class="modal-close-icon" width="8" height="8">
         <use href="./images/icons.svg#close"></use>
     </svg>
@@ -619,6 +619,7 @@
 </div>
     </div>
 <!-- #endregion modal -->
+<script src="./js/modal.js"></script>
 </body>
 </html>
 
