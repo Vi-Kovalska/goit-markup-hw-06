@@ -720,9 +720,6 @@ padding-right: 32px;
     .portfolio-item {
         width: calc((100% - 2*24px)/3); 
     }
-    .portfolio {
-        width: 1128px;
-    }
 }
 /* #endregion portfolio */
 /* #region footer */
