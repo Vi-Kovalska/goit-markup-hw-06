@@ -937,6 +937,9 @@ text-align: center;
                padding-top: 100px;
            padding-bottom: 100px;
             }
+            .footer-logo-div {
+                margin-bottom: 0;
+            }
             .container.footer-container {
                flex-wrap: nowrap;
                padding-left: 0;
