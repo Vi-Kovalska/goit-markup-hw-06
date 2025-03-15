@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+<script src='./js/modal.js' defer></script>
+
 </head>
 <body>
 <!-- #region header -->
@@ -30,16 +32,15 @@
 </ul>
 </address>
 
-<button class="mob-menu-open-btn" type="button" >
+<button class="mob-menu-open-btn" type="button" data-modal-open>
     <svg class="mob-menu-open-icon" width="24" height="24">
         <use href="./images/icons.svg#header-menu-icon"></use>
     </svg>
 </button>
 </div>
 
-<div class="mob-menu">
-    <>
-    <button class="mob-menu-close-btn" type="button">
+<div class="mob-menu" >
+    <button class="mob-menu-close-btn" type="button" >
         <svg class="mob-menu-close-icon" width="8" height="8">
             <use href="./images/icons.svg#close" ></use>
         </svg>
@@ -563,7 +564,7 @@
     </footer>
 <!-- #endregion footer -->
  <!-- #region modal -->
-  <div class="backdrop data-modal">
+  <div class="backdrop" data-modal >
     <div class="modal">
 <button class="modal-close-btn" type="button" data-modal-close>
     <svg class="modal-close-icon" width="8" height="8">
@@ -619,7 +620,6 @@
 </div>
     </div>
 <!-- #endregion modal -->
-<script src="./js/modal.js"></script>
 </body>
 </html>
 
