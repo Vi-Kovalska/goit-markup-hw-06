@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSTUDIO</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.css">
+    <title>ViCodePartner</title>
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -17,18 +17,18 @@
     <header class="header">
         <div class="container header-container">
 <nav class="nav nav-container">
-    <a class="logo" href="./index.html">Web<span class="logo-span">Studio</span></a> 
+    <a class="logo" href="./index.html">Vi<span class="logo-span">CodePartner</span></a> 
     <ul class="nav-menu nav-menu-container">
-        <li class="nav-menu-item"> <a class="nav-menu-link current" href="./index.html">Studio</a> </li>
-        <li class="nav-menu-item"> <a class="nav-menu-link" href="">Portfolio</a> </li>
-        <li class="nav-menu-item"> <a class="nav-menu-link" href="">Contacts</a> </li>
+        <li class="nav-menu-item"> <a class="nav-menu-link" href="#order">Order</a> </li>
+        <li class="nav-menu-item"> <a class="nav-menu-link" href="#portfolio">Portfolio</a> </li>
+        <li class="nav-menu-item"> <a class="nav-menu-link" href="#about">About</a> </li>
     </ul>
 </nav>
 
 <address class="contacts">
     <ul class="contacts-menu contacts-menu-container">
-    <li class="contacts-item"> <a class="contacts-menu-link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-    <li class="contacts-item"> <a class="contacts-menu-link" href="tel:+110001111111">+11 (000) 111-11-11</a> </li>
+    <li class="contacts-item"> <a class="contacts-menu-link" href="mailto:kovalskayavi853@gmail.com">kovalskayavi853@gmail.com</a> </li>
+    <li class="contacts-item"> <a class="contacts-menu-link" href="tel:+380956717633">+38 (095) 671-76-33</a> </li>
 </ul>
 </address>
 
@@ -47,9 +47,9 @@
     </button>
     <nav class="mob-nav">
     <ul class="mob-menu-list">
-        <li class="mob-menu-item"> <a class="mob-menu-link current" href="./index.html">Studio</a> </li>
-        <li class="mob-menu-item"> <a class="mob-menu-link" href="">Portfolio</a> </li>
-        <li class="mob-menu-item"> <a class="mob-menu-link" href="">Contacts</a> </li>
+        <li class="mob-menu-item"> <a class="mob-menu-link" href="#order">Order</a> </li>
+        <li class="mob-menu-item"> <a class="mob-menu-link" href="#portfolio">Portfolio</a> </li>
+        <li class="mob-menu-item"> <a class="mob-menu-link" href="#about">About</a> </li>
     </ul>
 </nav>
 
@@ -97,16 +97,26 @@
 <!-- #region main -->
 <main class="main">
     <!-- #region hero -->
-<section class="hero">
-    <div class="container hero-container">
+<section class="hero" id="order">
+    <div class="container hero-container" >
         <h1 class="hero-title">
         Effective Solutions 
         for Your Business
     </h1>
-    <button class="hero-btn" type="button" data-modal-open>Order Service</button>
+    <button class="hero-btn" type="button" order-open>Order Service</button>
 </div>
 </section> 
 <!-- #endregion hero -->
+ <!-- #region orderForm + using personal backend on Node.js + nodemailer -->
+  <div class="backdrop" order-backdrop>
+<div class="modal" >
+    <button order-close>X</button>
+    <form action="">
+        <button type="submit" order-send>Create order</button>
+    </form>
+</div>
+  </div>
+  <!-- #endregion orderForm -->
 <!-- #region benefits -->
 <section class="benefits">
     <div class="container">
@@ -167,8 +177,9 @@
     </div>
 </section>
 <!-- #endregion benefits-->
+
 <!-- #region team -->
-<section class="team">
+<!-- <section class="team">
   <div class="container team-container"> 
     <h2 class="team-title">Our Team</h2>
     <ul class="team-menu">
@@ -334,12 +345,12 @@
         </li>
     </ul>
 </div>
-</section>
+</section> -->
  <!-- #endregion team -->
   <!-- #region portfolio -->
-<section class="portfolio">
+<section class="portfolio" >
    <div class="container">
-    <h2 class="portfolio-title">Our Portfolio</h2>
+    <h2 class="portfolio-title" id="portfolio">Portfolio</h2>
     <ul class="portfolio-menu">
       <li class="portfolio-item">
         <div class="portfolio-cover-wrap">
@@ -502,6 +513,26 @@
    </div>
 </section>
 <!-- #endregion portfolio-->
+<!-- #region about -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="aboutWrapper">
+            <div class="aboutAvatarWrapper">
+                <img src="" alt="Viktoriia Kovalska" width="" height="" class="aboutImg">
+            </div>
+            <div class="aboutContentWrapper">
+                <h2>Kovalska Viktoriia</h2>
+                <p>Full-Stack developer</p>
+                <div class="aboutRelativeBoxForPopUpContent">
+                    <div class="aboutPopUpContent">
+                        <p>resume</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- #endregion about -->
     </main>
 <!-- #endregion main -->
 
@@ -509,7 +540,7 @@
     <footer class="footer">
             <div class="container footer-container">
                 <div class="footer-logo-div">
-            <a class="footer-logo" href="./index.html">Web<span class="footer-logo-span">Studio</span></a>
+            <a class="footer-logo" href="./index.html">Vi<span class="footer-logo-span">CodePartner</span></a>
         <p class="footer-text">Increase the flow of customers and 
         sales for your business with digital 
         marketing & growth solutions.</p>
@@ -615,11 +646,13 @@
             I accept the terms and conditions of the <a class="checkbox-link" href="">Privacy Policy</a>
         </label>
     </div>
-    <button class="modal-btn-send" type="submit">Send</button>
+    <button class="modal-btn-send" type="submit" mob-btn-send>Send</button>
 </form>
 </div>
     </div>
 <!-- #endregion modal -->
+
+<script defer src="./js/main.js"></script>
 </body>
 </html>
 
